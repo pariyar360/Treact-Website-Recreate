@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    color: #243E63;
+}
+
+a {
+    text-decoration: none;
+}
+
+.row {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.text-purple {
+    color: #6415FF;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+/* Nav bar */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding-top: 32px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.logo__img {
+    width: 2.5rem;
+    margin-right: 12px;
+}
+
+.nav__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 640px;
+}
+
+.nav__list--links {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
+
+.nav__link {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.nav__list--login {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+}
+
+.nav__link--primary, .btn {
+    border: 1px solid;
+    color: white;
+    background-color: #6415FF;
+    padding: 12px 32px;
+    border-radius: 24px;
+}
+
+/* Header */
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+
+.header__description{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 70%;
+}
+
+.header__title {
+    font-size: 48px;
+    color: rgb(26,32,44, 1);
+}
+
+.email-input {
+    border: 2px solid;
+    opacity: 0.4;
+    width: 90%;
+    max-width: 400px;
+    border-radius: 24px;
+    display: flex;
+    justify-content: space-between;
+    height: 48px;
+    overflow: hidden;
+}
+
+.sponsors{
+    display: flex;
+    flex-direction: column;
+    opacity: 0.5;
+}
+
+.sponsors__para {
+    font-size: 12px;
+    margin-bottom: 12px;
+}
+
+.sponsors__img {
+    display: flex;
+}
+
+.input-field {
+    border: none;
+    padding-left: 24px;
+}
+
+.header__img--wrapper {
+    width: 60%;
+    display: flex;
+}
+
+.header__img {
+    width: 100%;
+}
